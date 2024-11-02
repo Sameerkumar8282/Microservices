@@ -1,0 +1,55 @@
+# Ignore IDE files
+/.idea/
+/*.iml
+*.class
+*.project
+*.settings/
+*.classpath
+
+# Ignore Maven and Gradle directories
+/target/
+/out/
+/build/
+
+# Ignore Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore Spring Boot-specific files
+/*.log
+/*.jar
+/*.war
+
+# Ignore temporary files and generated files
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.bak
+*.orig
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+*.stackdump
+*.rej
+*.patch
+*.pid
+
+# Ignore application-specific properties and secrets (adjust as needed)
+application.properties
+application.yml
+*.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore MySQL files (if using embedded MySQL data)
+mysql/
+*.sock
+
+# Ignore logs and temporary files
+/logs/
+*.log
