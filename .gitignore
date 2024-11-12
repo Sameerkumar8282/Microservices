@@ -1,1 +1,95 @@
-.idea
+# Java and Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Gradle
+.gradle/
+build/
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Environment-specific properties
+*.env
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# Temp files
+*.swp
+*.tmp
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Flyway migrations
+flyway_schema_history
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+.env
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+
+# Lombok generated annotations
+*.lombok
+
+# Security
+**/secrets/
+.secret
+
+# IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Testing reports
+test-output/
+surefire-reports/
+test-results/
+build/test-results/
+jacoco/
+
+# Files generated at runtime
+hs_err_pid*
